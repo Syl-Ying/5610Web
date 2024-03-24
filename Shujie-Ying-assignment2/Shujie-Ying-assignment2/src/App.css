@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  background-color: #c197df;
+  padding: 10px 16px;
+  margin-bottom: 16px;
+  border-bottom: 3px dotted white;
+}
+
+.navbar-logo {
+  color:#f5edfc;
+  font-size: 20px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    padding: 0;
+  }
+  .navbar-logo {   
+    font-size: 17px;
+  }
+}
